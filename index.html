@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Passtell</title>
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+</head>
+
+<body>
+    <header>
+      <a href="https://passtell.org">
+        <img src="img/logo.png" alt="banner">
+        <div class="spans">
+          <span style="color: #fbf1c7">PASS</span><span style="color: #fabd2f">TELL</span>
+        </div>
+      </a>
+      <nav>
+        <ul class="nav">
+          <li><a href="https://passtell.org">~/home</a></li>
+          <li><a href="https://passtell.org/docs.html">~/docs</a></li>
+          <li><a href="https://passtell.org/about.html">~/about</a></li>
+          <li><a href="https://git.passtell.org" target="_blank">~/source</a></li>
+        </ul>
+      </nav>
+      <button class="button" onclick="toggleTheme()"><img src="img/theme.png" alt="change theme"</button>
+      <script src="script/theme.js"></script>
+    </header>
+    <div class="bar">
+        <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <script src="script/bar.js"></script>
+    <main>
+      <h1>Overview</h1>
+
+      <p>Passtell is free and open-source CLI local password manager written in POSIX shell and aligned with the Unix philosophy. It operates in interactive mode but can be easily combined with other command-line tools in Unix-like system environments using pipes, providing a personalized experience depending on the user's needs. With fewer lines than the CSS file executed on this page, passtell manages password files individually, encrypted with <a href="https://age-encryption.org" target="_blank">age</a>, a simple yet powerful Unix-style encryption tool.</p>
+
+<h1>How Passtell Works</h1>
+
+      <p>Each password is securely stored within a single file with extension '.age', symmetrically encrypted using the passphrase provided by the user. It is possible to add, view, edit, delete, and list the password files from a specified directory or the default. File names are unique to each directory in which they are stored and are manipulated using basic utilities present in Unix-like operating systems. By default, the directory where the files are stored is ~/.passtell; however, it is possible to change this behavior. For more information, please refer to the <a href="https://passtell.org/docs.html">documentation</a>.</p>
+
+<h1>Why Use Files To Manage Passwords?</h1>
+
+<p>Among all the password managers available, only a few cater to Unix-like systems. Some of these are complex to use or configure and are not minimalist in terms of the dependencies installed for proper functioning. Therefore, there is a need to develop simpler software to manage passwords at a local level for Unix-like operating systems. As "in Unix, everything is a file," there is nothing better than managing passwords through files; this further simplifies the use of this software and deepens the principle of simplicity arising from the Unix philosophy.</p>
+
+<h1>Try it yourself:</h1>
+
+      <div class="code">
+           git clone https://gitlab.com/isaquepires/passtell.git
+    </div>
+
+    </main>
+      <div class="tri"></div>
+      <footer>
+      <p>Copyright © 2023 Isaque Cortina Pires. Design by <a href="https://gitlab.com/isaquepires" target="_blank">Isaque Pires</a><br>
+      This <a href="https://gitlab.com/isaquepires/passtell.org" target="_blank">website</a> is licensed under the
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank">CC-BY-SA 4.0</a> License<br>
+      <a href="https://git.passtell.org" target="_blank">Passtell</a> is a Free and Open Source Software licensed under the
+      <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GPLv3</a><br>
+      </p>
+      </footer>
+  </body>
+</html>
