@@ -156,6 +156,7 @@ h1 {
   overflow-y: hidden;
   line-height: 1.5em;
   font-size: 170%;
+  text-shadow: 1px 1px var(--main-bg-alt-color);
 }
 
 h2 {
