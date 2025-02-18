@@ -234,6 +234,7 @@ h2 {
 
 .light-theme h1 {
   color: #d79921;
+  text-shadow: 0px;
 }
 
 .light-theme h2 {
