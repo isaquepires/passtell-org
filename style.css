@@ -45,13 +45,6 @@ a {
   color: var(--main-fg-alt-color);
 }
 
-hr {
-  border: none;
-  height: 3px;
-  background: var(--main-fg-alt-color);
-  /* ---- */
-}
-
 .spans {
   text-align: center;
   font-size: 200%;
@@ -194,10 +187,7 @@ h2 {
 }
 
 .light-theme hr {
-  border: none;
-  height: 3px;
-  background: var(--main-bg-color);
-  /* ---- */
+  border-top: 1px solid var(--main-bg-color);
 }
 
 .light-theme main {
@@ -207,9 +197,7 @@ h2 {
 
 .light-theme footer {
   background-color: var(--main-bg-alt-color);
-  background-color: var(--main-fg-alt-color); /* - */
   color: var(--main-fg-color);
-  color: var(--main-bg-alt-color); /* - */
 }
 
 .light-theme footer a {
@@ -257,7 +245,7 @@ h2 {
 
 .light-theme .tri {
   background-color: var(--main-fg-color);
-  background-image: url("img/tri3.png");
+  background-image: url("img/tri2.png");
 }
 
 .light-theme .progress-bar {
