@@ -208,7 +208,7 @@ h2 {
 
 .light-theme footer a {
   color: var(--main-fg-alt-color);
-  color: var(--main-fg-color); /* - */
+  color: #d79921; /* - */
 }
 
 .light-theme ul.nav li a {
