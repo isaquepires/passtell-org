@@ -83,7 +83,7 @@ ul.nav {
 }
         
 ul.nav li {
-  margin: 4vh 0 0 3vw;
+  margin: 4vh 0 0 4vw; /* 3vw */
   padding: 4%;
   display: block;
   text-align: left;
