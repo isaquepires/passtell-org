@@ -61,7 +61,7 @@ a {
   color: var(--main-fg-color);
   cursor: pointer;
   border: 0px;
-  font-size: 1.2vw;
+  font-size: 1vw;
 }
 
 .download:hover {
