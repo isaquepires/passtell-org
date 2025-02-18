@@ -46,7 +46,10 @@ a {
 }
 
 hr {
-  border-top: 3px dashed var(--main-fg-alt-color); /* ---- */
+  border: none;
+  height: 3px;
+  background: var(--main-fg-alt-color);
+  /* ---- */
 }
 
 .spans {
@@ -191,7 +194,10 @@ h2 {
 }
 
 .light-theme hr {
-  border-top: 3px dashed var(--main-bg-alt-color); /* ---- */
+  border: none;
+  height: 3px;
+  background: var(--main-bg-color);
+  /* ---- */
 }
 
 .light-theme main {
