@@ -210,7 +210,7 @@ h2 {
 }
 
 .light-theme ul.nav li a {
-  text-shadow: 2px 2px var(--main-bg-alt-color);
+  text-shadow: 1px 1px var(--main-bg-alt-color); /* - */
 }
 
 .light-theme header {
