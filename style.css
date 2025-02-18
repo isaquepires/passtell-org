@@ -274,7 +274,7 @@ h2 {
   }
 
   .progress-bar {
-    height: 3px;
+    height: 2px;
     width: 0;
     background-color: var(--main-fg-alt-color);
   }
@@ -324,6 +324,7 @@ h2 {
       background-color: var(--main-bg-color);
       color: var(--main-fg-color);
       border: 10px solid var(--main-bg-color);
+      overflow-x: hidden;
     }
 
     .download {
