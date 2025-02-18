@@ -20,6 +20,7 @@ body {
   color: var(--main-fg-color);
   margin: 0;
   font-size: 1vw;
+  font-size: clamp(14px, 1vw, 20px);
   font-family: Dejavu Sans Mono;
 }
 
