@@ -87,7 +87,7 @@ ul.nav li {
 
 ul.nav li a {
   text-shadow: 2px 2px var(--main-bg-color);
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   text-decoration: none;
   color: var(--main-fg-color);
 }
