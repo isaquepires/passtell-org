@@ -106,7 +106,7 @@ ul.nav li a:hover {
 main {
   text-align: justify;
   background-color: var(--main-bg-color);
-  margin-left: 15vw;
+  margin-left: 10vw; /* 15 */
   padding: 1em 4em 3em 4em;
   font-size: 1.2em;
   line-height: 1.8em;
