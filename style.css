@@ -455,6 +455,7 @@ h2 {
     main {
       font-size: 4.5vw;
       text-align: left;
+      text-align: justify;
     }
 
     footer {
