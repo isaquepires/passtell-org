@@ -45,6 +45,10 @@ a {
   color: var(--main-fg-alt-color);
 }
 
+hr {
+  border-top: 3px dashed var(--main-fg-alt-color); /* ---- */
+}
+
 .spans {
   text-align: center;
   font-size: 200%;
@@ -187,7 +191,7 @@ h2 {
 }
 
 .light-theme hr {
-  border-top: 1px dashed var(--main-bg-alt-color); /* ---- */
+  border-top: 3px dashed var(--main-bg-alt-color); /* ---- */
 }
 
 .light-theme main {
