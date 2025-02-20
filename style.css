@@ -19,7 +19,7 @@ body {
   background-color: var(--main-bg-alt-color);
   color: var(--main-fg-color);
   margin: 0;
-  font-size: 0.8vw;
+  font-size: 0.9vw;
   font-family: Dejavu Sans Mono;
 }
 
@@ -91,7 +91,7 @@ ul.nav li {
 
 ul.nav li a {
   text-shadow: 2px 2px var(--main-bg-color);
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   text-decoration: none;
   color: var(--main-fg-color);
 }
@@ -141,7 +141,7 @@ footer {
   bottom: 0;
   padding: 3vh 0 1vh 15vw;
   text-align: center;
-  font-size: 0.8vw;
+  font-size: 0.9vw;
   line-height: 2em;
 }
 
